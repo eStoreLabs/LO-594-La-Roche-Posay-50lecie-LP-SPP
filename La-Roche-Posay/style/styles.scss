@@ -269,6 +269,10 @@ main#maincontent {
       position: relative;
     }
 
+    .swiper-button-disabled {
+      display: none !important;
+    }
+
     .es-swiper-1-button-prev,
     .es-swiper-1-button-next,
     .es-swiper-2-button-prev,

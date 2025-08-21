@@ -2,7 +2,6 @@
   function initSwiper(suffix) {
     return new Swiper(`#es-rc #es-rc-content .es-swiper${suffix}`, {
       direction: 'horizontal',
-      loop: true,
       slidesPerView: 1.6,
       spaceBetween: 50,
 

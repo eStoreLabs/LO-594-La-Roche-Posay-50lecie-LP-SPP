@@ -213,6 +213,9 @@ main#maincontent {
   margin: 0 auto;
   position: relative;
 }
+#es-rc #es-rc-content .es-cards .swiper-button-disabled {
+  display: none !important;
+}
 #es-rc #es-rc-content .es-cards .es-swiper-1-button-prev,
 #es-rc #es-rc-content .es-cards .es-swiper-1-button-next,
 #es-rc #es-rc-content .es-cards .es-swiper-2-button-prev,
