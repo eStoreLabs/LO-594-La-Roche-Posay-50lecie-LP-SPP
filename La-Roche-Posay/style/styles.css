@@ -136,7 +136,7 @@ main#maincontent {
   align-items: flex-end;
   justify-content: center;
   -moz-column-gap: 10px;
-       column-gap: 10px;
+  column-gap: 10px;
   padding-left: 10px;
   padding-right: 15px;
   margin-bottom: 40px;
