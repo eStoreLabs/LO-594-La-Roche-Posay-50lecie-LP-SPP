@@ -211,6 +211,23 @@ main#maincontent {
 #es-rc #es-rc-content .es-cards__carousel-container {
   max-width: 325px;
   margin: 0 auto;
+  position: relative;
+}
+#es-rc #es-rc-content .es-cards .es-swiper-1-button-prev,
+#es-rc #es-rc-content .es-cards .es-swiper-1-button-next,
+#es-rc #es-rc-content .es-cards .es-swiper-2-button-prev,
+#es-rc #es-rc-content .es-cards .es-swiper-2-button-next,
+#es-rc #es-rc-content .es-cards .es-swiper-3-button-prev,
+#es-rc #es-rc-content .es-cards .es-swiper-3-button-next,
+#es-rc #es-rc-content .es-cards .es-swiper-4-button-prev,
+#es-rc #es-rc-content .es-cards .es-swiper-4-button-next {
+  top: 40%;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: rgba(134, 153, 175, 0.8);
+  color: #fff;
+  font-size: 20px !important;
 }
 #es-rc #es-rc-content .es-cards .es-swiper-slide--desktop {
   display: none;

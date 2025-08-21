@@ -264,9 +264,27 @@ main#maincontent {
     }
 
     &__carousel-container {
-      // padding-left: 50px;
       max-width: 325px;
       margin: 0 auto;
+      position: relative;
+    }
+
+    .es-swiper-1-button-prev,
+    .es-swiper-1-button-next,
+    .es-swiper-2-button-prev,
+    .es-swiper-2-button-next,
+    .es-swiper-3-button-prev,
+    .es-swiper-3-button-next,
+    .es-swiper-4-button-prev,
+    .es-swiper-4-button-next {
+      top: 40%;
+      width: 55px;
+      height: 55px;
+      border-radius: 50%;
+      background-color: rgba(134, 153, 175, 0.8);
+      color: #fff;
+      font-size: 20px !important;
+
     }
 
     .es-swiper-slide {
