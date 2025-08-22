@@ -279,7 +279,10 @@ main#maincontent {
 #es-rc #es-rc-content .es-cross__img {
   min-height: 320px;
 }
-#es-rc #es-rc-content .es-cross__img--3, #es-rc #es-rc-content .es-cross__img--4, #es-rc #es-rc-content .es-cross__img--6, #es-rc #es-rc-content .es-cross__img--9 {
+#es-rc #es-rc-content .es-cross__img--3,
+#es-rc #es-rc-content .es-cross__img--4,
+#es-rc #es-rc-content .es-cross__img--6,
+#es-rc #es-rc-content .es-cross__img--9 {
   min-height: 292px;
   max-height: 292px;
   margin-top: 27px;
@@ -400,6 +403,7 @@ main#maincontent {
   #es-rc #es-rc-content .es-kv__logo {
     top: 21%;
     right: 11px;
+    width: 28%;
   }
   #es-rc #es-rc-content .es-navigation__container {
     justify-content: space-between;
@@ -436,6 +440,10 @@ main#maincontent {
   }
 }
 @media (min-width: 1300px) {
+  #es-rc #es-rc-content .es-kv__logo {
+    width: 28%;
+  }
+
   #es-rc #es-rc-content .es-cards .es-swiper-slide--desktop {
     display: block;
     min-width: 325px;
@@ -446,8 +454,29 @@ main#maincontent {
     max-width: none;
   }
   #es-rc #es-rc-content .es-kv {
-    min-height: 600px;
+    min-height: 650px;
   }
+
+  #es-rc #es-rc-content .es-kv__title {
+    top: 77%;
+    left: 64.3%;
+    font-size: 45px;
+  }
+
+  #es-rc #es-rc-content .es-navigation {
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+
+  #es-rc #es-rc-content .es-cards {
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+
+  #es-rc #es-rc-content .es-kv__logo {
+    width: 28%;
+  }
+
   #es-rc #es-rc-content .es-navigation__link {
     min-width: 380px;
     max-width: 380px;
@@ -457,21 +486,27 @@ main#maincontent {
     min-width: 480px;
   }
   #es-rc #es-rc-content .es-cards .es-flip-card {
-    min-width: 380px;
+    min-width: 460px;
   }
   #es-rc #es-rc-content .es-cards .es-flip-card-front {
     background-color: #0e3460;
   }
   #es-rc #es-rc-content .es-cards .es-flip-card-back-container {
-    padding-bottom: 185px;
+    padding-bottom: 205px;
   }
   #es-rc #es-rc-content .es-cards .es-flip-card-back-container--2 {
-    padding-bottom: 115px;
+    padding-bottom: 150px;
   }
   #es-rc #es-rc-content .es-cards .es-flip-card-back-container--3 {
-    padding-bottom: 195px;
+    padding-bottom: 215px;
   }
   #es-rc #es-rc-content .es-cards .es-flip-card-back-container--4 {
-    padding-bottom: 145px;
+    padding-bottom: 165px;
   }
-}/*# sourceMappingURL=styles.css.map */
+
+  @media screen and (min-width: 2200px) {
+    #es-rc #es-rc-content .es-kv {
+      min-height: 800px;
+    }
+  }
+} /*# sourceMappingURL=styles.css.map */

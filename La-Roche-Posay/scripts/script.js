@@ -6,12 +6,12 @@
       spaceBetween: 50,
 
       pagination: {
-        el: '.es-swiper-pagination',
+        el: '#es-rc .es-swiper-pagination',
       },
 
       navigation: {
-        nextEl: `.es-swiper${suffix}-button-next`,
-        prevEl: `.es-swiper${suffix}-button-prev`,
+        nextEl: `#es-rc .es-swiper${suffix}-button-next`,
+        prevEl: `#es-rc .es-swiper${suffix}-button-prev`,
       },
     });
   }
@@ -19,9 +19,15 @@
   ['-1', '-2', '-3', '-4'].forEach(initSwiper);
 
   function addFlipHandlers(suffix) {
-    const card = document.getElementById(`card${suffix}`);
-    const openBtn = document.getElementById(`es-flipButton${suffix}`);
-    const closeBtn = document.getElementById(`es-flipButtonClose${suffix}`);
+    const card = document.querySelector(
+      `#es-rc #es-rc-content #es-card${suffix}`,
+    );
+    const openBtn = document.querySelector(
+      `#es-rc #es-rc-content #es-flipButton${suffix}`,
+    );
+    const closeBtn = document.querySelector(
+      `#es-rc #es-rc-content #es-flipButtonClose${suffix}`,
+    );
 
     if (card && openBtn && closeBtn) {
       openBtn.addEventListener('click', () => card.classList.add('es-flipped'));
